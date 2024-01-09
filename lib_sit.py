@@ -92,7 +92,7 @@ def lib_sit(book_info:dict):
     room_id = -1
     for inf in infs:
         if inf['name'] == book_info['room']:
-            room_id =inf['id']
+            room_id =inf['room_id']
     if room_id == -1:
         print('请检查room是否错误')
         return
